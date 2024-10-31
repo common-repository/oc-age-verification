@@ -1,0 +1,126 @@
+.ocavp-container h2 {
+    display: block;
+    font-size: 18px !important;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+p.ocavp-heading {
+    font-size: 20px !important;
+    font-weight: 600;
+    margin: 0;
+}
+.ocavp-inner-block {
+    margin-top: 10px;
+}
+.ocavp-inner-block ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.ocavp-inner-block ul.tabs li{
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 0;
+    border: 1px solid #d8d8d8;
+    margin-left: 0px;
+    margin-right: 2px;
+    background: #fff;
+    color: #222;
+    font-size: 13px;
+    padding: 7px 20px;
+}
+.ocavp-inner-block ul.tabs li.current{
+    color: #fff;
+    border: 1px solid #ccc;
+    background-color:#494d4e;
+    border-bottom: 0px;
+}
+.ocavp-inner-block .tab-content{
+    display: none;
+    padding: 15px;
+}
+.ocavp-inner-block .tab-content.current{
+    display: inherit;
+    border-top: 1px solid #d8d8d8;
+}
+p.ocavp-tips {
+    margin: 2px 0 5px !important;
+    color: #666;
+    font-size: 12px !important;
+    font-style: italic;
+}
+input#ocavp-btn-space {
+    margin: 25px 0px;
+}
+.ocavp_delivery_date_admin strong {
+    color: #000;
+}
+.ocavp_image_upload ul li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+}
+a.ocavp_remove_image_button {
+    position: absolute;
+    background: #000;
+    color: white;
+    top: -5px;
+    right: -5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    padding: 1px 1px 0px 0px;
+    text-align: center;
+    text-decoration: unset;
+    font-size: 10px;
+}
+a.ocavp_remove_limage_button {
+    position: absolute;
+    background: #000;
+    color: white;
+    top: -5px;
+    right: -5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    padding: 1px 1px 0px 0px;
+    text-align: center;
+    text-decoration: unset;
+    font-size: 10px;
+}
+.ocavp_all_images ul li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: 0 0 7px rgba(0,0,0,0.3);
+    margin: 10px 10px 5px 0px;
+    background-color: #fff;
+}
+.ocavp_all_images img {
+    width: 200px;
+    height: 150px;
+}
+.ocavp_all_images ul li:hover,li.ocavp-active{
+   background-color: #8a8888 !important; 
+}
+h2.ocavp-bgimage-title{
+    margin: 0;
+}
+.ocavp_imagebg_option {
+    margin-left: 25px;
+}
+input[name="ocavp_aveliable_background"] {
+    display: none;
+}
+.ocavp_selecteddata {
+    margin-top: 10px;
+}
